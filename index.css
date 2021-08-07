@@ -1,0 +1,63 @@
+body {
+    background-color: #f0f2f5;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+/* Rounded pill classes for horizontal sides */
+.rounded-pill-left {
+    border-top-left-radius: 50rem !important;
+    border-bottom-left-radius: 50rem !important;
+    cursor: pointer;
+  }
+  .rounded-pill-right {
+    border-top-right-radius: 50rem !important;
+    border-bottom-right-radius: 50rem !important;
+  }
+  
+  .topcard {
+     
+    border-radius: 15px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  }
+
+  .card-body {
+      padding-bottom: -10px;
+      cursor: pointer;
+  }
+
+  .postcard {
+     border-radius:45px;
+      color:gray;
+      background-color: #f0f2f5;
+      border:0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      
+  }
+
+.navbar {
+    background-color: white;
+    height:70px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}  
+
+.form-control {
+    border-radius: 50px;
+}  
+
+.postimg{
+    width:100%;
+    object-fit: cover;        
+}
+
+.media img {
+  height:150px;
+  width:150px;
+  border-radius: 15%;
+  margin:10px;
+  
+}
+
+  
