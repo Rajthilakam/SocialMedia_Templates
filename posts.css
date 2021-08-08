@@ -14,9 +14,38 @@ body {
   .postimg {
       width:100%;
       object-fit: cover;
-      max-height: fit-content;
+      border-radius: 15px;
+
   }
 
-  .postpic {
-      padding:-30px
+  
+
+ .card {
+     cursor:pointer
+ }
+
+ .form-groups input {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: gray
+  }
+  input:focus {
+    border-color: blue
+  }
+
+  #comments {
+    border-radius: 25px;
+    border: 2px solid lightgray;
+    padding: 20px; 
+   
+    height: 15px;   
+  }
+
+  h5 {
+      font-family: sans-serif;
+      font-size: large;
+  }
+
+  p{
+      font-size: large;
   }
