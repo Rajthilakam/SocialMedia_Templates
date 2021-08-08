@@ -1,0 +1,22 @@
+body {
+    background-color: #f0f2f5;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.topcard {
+     
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.1);
+  }
+
+  .postimg {
+      width:100%;
+      object-fit: cover;
+      max-height: fit-content;
+  }
+
+  .postpic {
+      padding:-30px
+  }
