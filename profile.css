@@ -31,6 +31,28 @@ body {
     border-radius: 15px;
 
 }
+.profilenav {
+    margin-left:125px;
+    padding-left:180px;
+}
+
+.profilenavite{
+    padding-left:30px;
+    padding-right:15px;
+}
+
+.navbar-collapse > .navbar-nav > .nav-item{
+    padding:25px;
+    color:black;
+}; 
+
+.navbar-text {
+    color:black;
+}
+
+.btncls{
+    padding-right:20px ;
+}
 
 #comments {
     border-radius: 25px;
