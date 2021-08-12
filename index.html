@@ -145,31 +145,45 @@
                 </h5>
               </li>
             </a>
-            
-
-
-          </ul>  
-
-         
-
-            
-            
-            
+           
+         </ul>  
+                  
+          
           </div>
                 
             
         
 
-        <div class="col-md-5 rounded">
+        <div class="col-md-5">
+          <!--CREATE STORY-->
+          <div class="row">
+            <div class="col">
+              <div class="card mt-3 topcard">
+                <div class="card-body">              
+                  <h5>
+                    <i class="fa fa-plus"></i>
+                    &nbsp
+                    Create a Story
+                  </h5>
+                  <div class="pl-4">
+                      Share a photo or write something.
+                  </div> 
+                                                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--CREATE POST-->
           <div class="card mt-3 topcard">
             <div class="card-body">
               <div class="container-fluid">
                 <div class="row mt-1">
-                  <div class="col-md-1 align-items-start">
-                    <div class="avatars mt-1 d-sm-none d-md-none d-lg-none d-xl-block ">
+                  <div class="col-md-1">
+                    <div class="mt-1 d-sm-none d-md-none d-lg-none d-xl-block d-inline-flex">
                       <img
                         src="photos/pizza.jpg"
-                        class="rounded-circle float-left"
+                        class="rounded-circle"
                         alt="Pizza"
                         width="54"
                         height="56"
@@ -195,6 +209,7 @@
             </div>
           </div>
 
+          <!--NO MORE POST-->
           <div class="row">
             <div class="col">
               <div class="card topcard mt-3">
@@ -206,6 +221,24 @@
               </div>
             </div>
           </div>
+
+          <div class="row">
+            <div class="col">
+              <div class="dropdown mr-auto">
+                <button class="btn editpostbtn" style="border:none" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <h2>...</h2>
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Save Post</a>
+                  <a class="dropdown-item" href="#">Edit Post</a>
+                  <a class="dropdown-item" href="#">Delete Post</a>
+                </div>
+              </div>
+              <!--<button type="submit" class="btn editpostbtn" style="border:none";><h3>...</h3></button>-->
+
+            </div>
+          </div>
+
         </div>  
 
        

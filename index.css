@@ -102,4 +102,18 @@ a:hover, a:visited, a:link, a:active{
   
 }
 
+/* POST BTN DOTS*/
+.editpostbtn{
+  padding: 0;
+border: none;
+background: none;
+}
+
+.editpostbtn:focus,.editpostbtn:active {
+  outline: none !important;
+  box-shadow: none;
+  color:gray;
+}
+
+
   

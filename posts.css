@@ -45,3 +45,20 @@ body {
   p{
       font-size: large;
   }
+
+  /* POST BTN DOTS*/
+.editpostbtn{
+  padding: 0;
+border: none;
+background: none;
+}
+
+.editpostbtn:focus,.editpostbtn:active {
+  outline: none !important;
+  box-shadow: none;
+  color:gray;
+}
+
+.flexclass {
+  display:flex;
+}
