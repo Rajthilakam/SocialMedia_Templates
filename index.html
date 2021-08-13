@@ -30,22 +30,26 @@
                     <img src="/photos/facebook.png" width="60" height="60" alt="">
                 </a>
 
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#sidenavbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
+                
+               
 
               
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!--<div class="collapse navbar-collapse" id="navbarSupportedContent">-->
                     <ul class="navbar-nav mr-auto">
                         <i class="fa fa-search">
                         <input class="form-control-lg border rounded-pill-left rounded-pill-right" type="search" value="search" id="example-search-input">
                         </i>  
                       </ul>
 
-                </div>
+                <!--</div>-->
+                <!--<button class="navbar-toggler" type="button" data-toggle="collapse " data-target="#sidenavbar" aria-controls="sidenavbar" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>-->
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
               </nav>
           </div>       
         </div>
@@ -53,7 +57,11 @@
       <!--SIDEBAR-->
       <div class="row">
         <div class="col-md-3">
-          <ul class="mt-3 side">
+          
+          <div class="collapse d-lg-block d-xl-block" id="navbarSupportedContent">
+
+          
+          <ul class="collapse show mt-lg-3 pl-lg-3 pl-sm-0">
             <a href="#">
               <li class="icons">
                 <!--<span  style="font-size: 30px; color: Dodgerblue;">-->
@@ -85,7 +93,7 @@
             
             <a href="#">
               <li class="icons">
-                <h5 class="sidebarfon">
+                <h5>
                   <span class= "mr-3" style="font-size: 30px; color: Mediumslateblue;">
                     <i class="fas fa-save"></i>
                   </span>                
@@ -162,13 +170,14 @@
             </a>           
          </ul>  
                   
-          
           </div>
+          
+        </div>
                 
             
         
 
-        <div class="col-md-5">
+        <div class="col-md-5 col-sm-4">
           <!--CREATE STORY-->
           <div class="row">
             <div class="col">
@@ -258,9 +267,8 @@
        
 
 
-
         <!--LEFTBAR-->
-        <div class="col-md-3 mt-4">
+        <div class="col-md-3 col-sm-3 mt-4 d-sm-none d-md-none d-lg-block d-xl-block">
              <h4>Sponsored</h4>    
           <div class="row">
 
