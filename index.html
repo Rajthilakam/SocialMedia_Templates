@@ -207,11 +207,11 @@
           <div class="card mt-3 topcard">
             <div class="card-body">
               <div class="container-fluid">
-                <div class="row mt-1">
+                <div class="row mt-1 justify-content-start">
                   <div class="col-md-1">
                     <div
                       class="
-                        mt-1
+                        mt-1  ml-0 justify-content-start
                         d-sm-none d-md-none d-lg-none d-xl-block d-inline-flex
                       "
                     >
@@ -386,7 +386,23 @@
                         />
                       </div>
 
-                      <h3>Hello there</h3>
+                      <div class="col">
+                        <div class="card uploadpiccard">
+                          <div class="card body">
+                            <h5>Add a post</h5>
+                            <div class="image-upload">
+                              <label for="file-input">
+                                <img src="https://icon-library.net/images/upload-photo-icon/upload-photo-icon-21.jpg"/>
+                              </label>
+                            
+                              <input id="file-input" type="file" />
+                            </div>
+                            <input type="file" id="selectedFile" style="display: none;" />
+                            <input type="button" value="Browse..." onclick="document.getElementById('selectedFile').click();" />
+                          </div>
+                        </div>
+                        
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -394,13 +410,13 @@
 
               <div class="modal-footer">
                 <button
-                  type="button"
+                  type="submit"
                   class="btn btn-secondary"
                   data-dismiss="modal"
                 >
-                  Cancel
+                  Add Post
                 </button>
-                <button type="button" class="btn btn-primary">Post</button>
+                <!--<button type="button" class="btn btn-primary">Post</button>-->
               </div>
             </div>
           </div>

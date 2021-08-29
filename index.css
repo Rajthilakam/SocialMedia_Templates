@@ -121,4 +121,11 @@ background: none;
   padding-left:50px;
 }
 
+/*UPLOAD POST PIC*/
+.uploadpiccard {
+  border-radius: 15%;
+}
 
+.image-upload>input {
+  display: none;
+}
