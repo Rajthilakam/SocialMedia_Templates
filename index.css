@@ -28,7 +28,7 @@ a:hover, a:visited, a:link, a:active{
   color: black;
 }
 
-.sidenav {
+.sidenavsnpm  {
   padding: 6px 8px 6px 16px;
 }
 
@@ -63,8 +63,7 @@ a:hover, a:visited, a:link, a:active{
       color:gray;
       background-color: #f0f2f5;
       border:0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;      
   }
 
 .navbar {
@@ -92,6 +91,16 @@ input:focus {
 .postimg{
     width:100%;
     object-fit: cover;        
+}
+
+.posttext { 
+    border: none;
+    width: 100%;
+    font-size: 20px;
+}
+
+.posttext:focus {
+  outline: none;
 }
 
 .media img {
@@ -123,6 +132,20 @@ background: none;
 
 /*UPLOAD POST PIC*/
 .uploadpiccard {
+  border-radius: 25%;
+  width:100%;
+  height:20%;
+}
+
+.share-icons {
+  cursor: pointer;
+  margin-top:20px;
+  display:flex;
+  padding-right: 10px;
+  justify-content: space-between;
+}
+
+.modal{
   border-radius: 15%;
 }
 
